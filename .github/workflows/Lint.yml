@@ -15,4 +15,4 @@ jobs:
         run: pip install ruff
 
       - name: run linter
-        run: ruff .
+        run: ruff check .
