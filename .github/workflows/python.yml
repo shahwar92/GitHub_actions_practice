@@ -8,5 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: install python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5
+        with:
+          python-version: '3.11'
+          
         
