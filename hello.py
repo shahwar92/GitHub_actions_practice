@@ -3,3 +3,4 @@
 print('Hello, world!')
 print('Hello Again!')
 print('Hello once again')
+print(let linter fail)
