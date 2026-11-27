@@ -16,7 +16,7 @@ jobs:
         run: python --version
       - name: check space
         run: df -h
-      - name: swith to super user
-        run: sudo su
+      - name: check history
+        run: history
           
         
